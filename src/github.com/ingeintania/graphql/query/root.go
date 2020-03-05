@@ -177,6 +177,11 @@ func GetRoot() *graphql.Object{
 				Resolve: res.GetRoomsByHotelId,
 				Description: "Get Hotel Based on Area",
 			},
+			"orders": {
+				Type:        graphql.NewList(typ.GetOrderType()),
+				Resolve:     res.GetAllOrder,
+				Description: "Get Order",
+			},
 		},
 	})
 }

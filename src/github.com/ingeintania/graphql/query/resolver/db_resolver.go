@@ -187,3 +187,9 @@ func GetLogin(p graphql.ResolveParams) (i interface{}, err error) {
 	return users, error
 }
 
+func GetAllOrder(p graphql.ResolveParams) (i interface{}, err error) {
+	orders, error:= model.GetAllOrder()
+
+	return orders, error
+}
+

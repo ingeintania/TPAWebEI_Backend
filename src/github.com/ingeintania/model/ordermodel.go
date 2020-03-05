@@ -26,6 +26,20 @@ func init(){
 	db.AutoMigrate(&Order{})
 }
 
+func GetAllOrder()([]Order, error){
+	db, error := database.Connect()
+
+	if error != nil{
+		return nil, error
+	}
+	var allOrder []Order
+
+	db.Find(&allOrder)
+
+	defer db.Close()
+	return allOrder, nil
+}
+
 func CreateOrder(user_name string, user_email string,
 	user_phone string, ticket_quantity int,
 	ticket_title string, ticket_name string,
