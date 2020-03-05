@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d12cc7b-74de-4106-80fc-3824f50303d9" name="Default Changelist" comment="" />
+    <list default="true" id="1d12cc7b-74de-4106-80fc-3824f50303d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/email/email.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/mutations/resolver/db_resolver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/mutations/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/resolver/db_resolver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/entertainment_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/hotel_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/hotelfacility_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/hoteltype_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/location_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/query/type/user_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/aeroplane_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/blog_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/car_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/entertainment_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/hotel_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/hotelfacility_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/hoteltype_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/location_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/ordertype.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/promo_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/roomtype.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/subscription_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/train_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/graphql/type/user_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/aeroplanemodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/blogmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/carmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/entertainmentmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/hotelfacilitymodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/hotelmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/hoteltypemodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/locationmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/ordermodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/promomodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/roommodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/subscriptionmodel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/trainmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ingeintania/Model/usermodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ingeintania/model/usermodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ingeintania/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ingeintania/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +59,10 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/graphql-go/graphql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$" />
@@ -41,22 +85,53 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/github.com/ingeintania/Middleware" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../email_auth" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Inge Intania\TPAWebEI_Backend\src\github.com\ingeintania\Middleware" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Inge Intania\TPA\TPAWebEI_Backend\src\github.com\graphql-go" />
+      <recent name="D:\Inge Intania\TPA\TPAWebEI_Backend\src\github.com\ingeintania" />
       <recent name="D:\Inge Intania\TPAWebEI_Backend\src\github.com\ingeintania" />
       <recent name="D:\Inge Intania\TPAWebEI_Backend\src\github.com\ingeintania\database" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Inge Intania\TPA\TPAWebEI_Backend\src\github.com\ingeintania\graphql\type" />
+      <recent name="D:\Inge Intania\TPA\TPAWebEI_Backend\src\github.com\ingeintania\graphql\query\type" />
+      <recent name="D:\Inge Intania\TPAWebEI_Backend\src\github.com\ingeintania\Middleware" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TPAWebEI_Backend" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/github.com/ingeintania/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build usermodel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TPAWebEI_Backend" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/github.com/ingeintania/model/usermodel.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build usermodel.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -74,13 +149,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Build_Tags_&amp;_Vendoring" timestamp="1581156510159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#Build_Tags_&amp;_Vendoring/0.0.1280.680@0.0.1280.680" timestamp="1581156510159" />
     <state x="233" y="0" key="#GOPATH" timestamp="1580907593473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#GOPATH/0.0.1280.680@0.0.1280.680" timestamp="1580907593473" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1580907592193">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581334705144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1580907592193" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1581334705144" />
+    <state x="41" y="0" key="#go_build_usermodel.go" timestamp="1581154949035">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="41" y="0" key="#go_build_usermodel.go/0.0.1280.680@0.0.1280.680" timestamp="1581154949035" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1581314122929">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581314122929" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1583058826508">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583058826508" />
+    <state width="1237" height="303" key="GridCell.Tab.0.bottom" timestamp="1583423089556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="303" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583423089556" />
+    <state width="1237" height="303" key="GridCell.Tab.0.center" timestamp="1583423089556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="303" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583423089556" />
+    <state width="1237" height="303" key="GridCell.Tab.0.left" timestamp="1583423089556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="303" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583423089556" />
+    <state width="1237" height="303" key="GridCell.Tab.0.right" timestamp="1583423089556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="303" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583423089556" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1581156499625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581156499625" />
+    <state x="366" y="32" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1581156314392">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="366" y="32" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1581156314392" />
+    <state x="336" y="0" width="742" height="680" key="find.popup" timestamp="1583002624258">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="0" width="742" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1583002624258" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583358686928">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583358686928" />
   </component>
 </project>

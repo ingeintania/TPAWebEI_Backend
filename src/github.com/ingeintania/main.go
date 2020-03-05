@@ -5,6 +5,8 @@ import (
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/handler"
 	"github.com/ingeintania/database"
+	"github.com/ingeintania/graphql/mutations"
+	"github.com/ingeintania/graphql/query"
 	"github.com/ingeintania/middleware"
 	"log"
 	"net/http"
@@ -34,7 +36,11 @@ func main(){
 		fmt.Print("Ini Connect")
 	}
 	db.Close()
-	fmt.Print(":((((")
+	fmt.Print(":D")
 	wrapped := middleware.CorsMiddleware(h)
-	log.Fatalln(http.ListenAndServe(":2000",wrapped))
+
+	token := "akuasehat"
+
+	http.Handle("/"+token+"/api",wrapped)
+	log.Fatalln(http.ListenAndServe(":2003",nil))
 }
