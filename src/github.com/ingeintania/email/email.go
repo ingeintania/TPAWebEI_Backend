@@ -9,7 +9,7 @@ import (
 const ConfigSmtpHost = "smtp.gmail.com"
 const ConfigSmtpPort = 587
 const ConfigEmail = "pesutmahakam168@gmail.com"
-const ConfigPassword = "makanmakan1681"
+const ConfigPassword = ""
 
 func sendMail(to []string, subject string, message string) error {
 
